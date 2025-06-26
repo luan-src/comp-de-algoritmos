@@ -46,18 +46,6 @@ def main():
 
 main()
 
-# Teste adicional manual:
-print("\nTeste manual: greedy(77, [1, 5, 10, 50])")
-resultado = greedy(77, [1, 5, 10, 50])
-imprimir_moedas_utilizadas(resultado)
-
-
-
-
-main()
-#Para testar o algoritmo com outros valores
-#Greedy(centavos, moedas)
-
 print(f'Teste manual para R$0,77 {greedy(77, [1, 5, 10, 50])}')
 
 # configuracoes = [1, 2, 5, 10, 25, 50, 100]
